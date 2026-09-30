@@ -12,7 +12,7 @@ const translations = {
     "nav.publications": "论文发表",
     "nav.awards": "荣誉奖励",
     "about.label": "关于我",
-    "about.heading": "探索能够感知、推理与行动的智能。",
+    "about.heading": "关于我",
     "about.p1": "我现为<a href=\"https://www.ustc.edu.cn/\" target=\"_blank\" rel=\"noreferrer\">中国科学技术大学</a>控制科学与工程专业硕士研究生，师从<a href=\"https://jiaweiliu92.github.io/\" target=\"_blank\" rel=\"noreferrer\">刘嘉威老师</a>，在信息科学与技术学院类脑实验室开展研究。",
     "about.p2": "我的研究兴趣集中于多模态智能体、具身智能与自主无人机的交叉领域。本科毕业于<a href=\"https://www.csu.edu.cn/\" target=\"_blank\" rel=\"noreferrer\">中南大学</a>轨道交通信号与控制专业。",
     "about.contact": "联系我",
