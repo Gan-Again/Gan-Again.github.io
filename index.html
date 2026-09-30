@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Gan Yucheng (Again) — M.S. student at USTC researching multimodal agents, embodied intelligence, and autonomous aerial vehicles."
+    />
+    <meta name="color-scheme" content="light dark" />
+    <title>Gan Yucheng (Again)</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="mobile-header">
+      <a class="mobile-brand" href="#about" aria-label="Back to top">GY</a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Open navigation</span>
+      </button>
+    </header>
+
+    <div class="page-shell">
+      <aside class="sidebar">
+        <div class="profile">
+          <div class="avatar" aria-label="Gan Yucheng monogram">GY</div>
+          <p class="eyebrow" data-i18n="profile.kicker">HELLO, I'M</p>
+          <h1>Gan Yucheng <span class="nickname">(Again)</span></h1>
+          <p class="name-cn">甘宇铖</p>
+          <p class="role" data-i18n="profile.role">M.S. Student · USTC</p>
+          <p class="focus" data-i18n="profile.focus">Multimodal Agents · Embodied AI · UAVs</p>
+        </div>
+
+        <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+          <a href="#about" class="active" data-i18n="nav.about">About</a>
+          <a href="#interests" data-i18n="nav.interests">Research</a>
+          <a href="#education" data-i18n="nav.education">Education</a>
+          <a href="#experience" data-i18n="nav.experience">Experience</a>
+          <a href="#news" data-i18n="nav.news">News</a>
+          <a href="#publications" data-i18n="nav.publications">Publications</a>
+          <a href="#awards" data-i18n="nav.awards">Awards</a>
+        </nav>
+
+        <div class="contact-list" aria-label="Contact links">
+          <a href="mailto:gan_yucheng@mail.ustc.edu.cn" aria-label="Email">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 5h18v14H3V5Zm9 7 7-5H5l7 5Zm0 2.4L5 9.5V17h14V9.5l-7 4.9Z" /></svg>
+            <span>Email</span>
+          </a>
+          <a href="https://github.com/Gan-Again" target="_blank" rel="noreferrer" aria-label="GitHub">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.2.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.5-1.4-1.3-1.7-1.3-1.7-1.1-.8.1-.8.1-.8 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.4-1.3-5.4-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11.2 11.2 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.4 5.7.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6A11.5 11.5 0 0 0 12 .7Z" /></svg>
+            <span>GitHub</span>
+          </a>
+          <span class="location">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.1 7 13 7 13s7-7.9 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5Z" /></svg>
+            <span data-i18n="profile.location">Hefei, China</span>
+          </span>
+        </div>
+
+        <div class="controls" aria-label="Display preferences">
+          <button id="language-toggle" class="control-button" type="button" aria-label="切换至中文">
+            <span class="control-icon" aria-hidden="true">文</span>
+            <span id="language-label">中文</span>
+          </button>
+          <button id="theme-toggle" class="control-button" type="button" aria-label="Switch to dark mode">
+            <svg class="theme-icon sun" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 4V1m0 22v-3m8-8h3M1 12h3m13.7-5.7 2.1-2.1M4.2 19.8l2.1-2.1m11.4 0 2.1 2.1M4.2 4.2l2.1 2.1M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Z" /></svg>
+            <span id="theme-label">Dark</span>
+          </button>
+        </div>
+      </aside>
+
+      <main id="main" class="content">
+        <section id="about" class="section hero-section">
+          <p class="section-label" data-i18n="about.label">ABOUT ME</p>
+          <h2 data-i18n="about.heading">Exploring intelligence that can perceive, reason, and act.</h2>
+          <div class="about-copy">
+            <p data-i18n-html="about.p1">
+              I am an M.S. student in Control Science and Engineering at the
+              <a href="https://www.ustc.edu.cn/" target="_blank" rel="noreferrer">University of Science and Technology of China (USTC)</a>,
+              advised by <a href="https://jiaweiliu92.github.io/" target="_blank" rel="noreferrer">Prof. Jiawei Liu</a>.
+              I work with the Brain-inspired Intelligence Lab in the School of Information Science and Technology.
+            </p>
+            <p data-i18n-html="about.p2">
+              My interests lie at the intersection of multimodal agents, embodied intelligence, and autonomous aerial vehicles. Before joining USTC, I received my bachelor's degree in Rail Transit Signal and Control from
+              <a href="https://www.csu.edu.cn/" target="_blank" rel="noreferrer">Central South University (CSU)</a>.
+            </p>
+          </div>
+          <div class="hero-actions">
+            <a class="primary-link" href="mailto:gan_yucheng@mail.ustc.edu.cn">
+              <span data-i18n="about.contact">Get in touch</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a class="text-link" href="#interests">
+              <span data-i18n="about.explore">Explore my research</span>
+              <span aria-hidden="true">↓</span>
+            </a>
+          </div>
+        </section>
+
+        <section id="interests" class="section">
+          <div class="section-heading">
+            <div>
+              <p class="section-label" data-i18n="interests.label">RESEARCH INTERESTS</p>
+              <h2 data-i18n="interests.heading">Research directions</h2>
+            </div>
+            <span class="section-number">01</span>
+          </div>
+          <div class="interest-grid">
+            <article class="interest-card">
+              <span class="card-index">01</span>
+              <h3 data-i18n="interests.agent.title">Multimodal Agents</h3>
+              <p data-i18n="interests.agent.body">Building agents that understand and reason across vision, language, and other modalities.</p>
+            </article>
+            <article class="interest-card">
+              <span class="card-index">02</span>
+              <h3 data-i18n="interests.embodied.title">Embodied Intelligence</h3>
+              <p data-i18n="interests.embodied.body">Connecting perception, reasoning, planning, and action in interactive environments.</p>
+            </article>
+            <article class="interest-card">
+              <span class="card-index">03</span>
+              <h3 data-i18n="interests.uav.title">Autonomous Aerial Vehicles</h3>
+              <p data-i18n="interests.uav.body">Exploring intelligent perception and decision-making for autonomous UAV systems.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="education" class="section">
+          <div class="section-heading">
+            <div>
+              <p class="section-label" data-i18n="education.label">EDUCATION</p>
+              <h2 data-i18n="education.heading">Academic journey</h2>
+            </div>
+            <span class="section-number">02</span>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="timeline-mark" aria-hidden="true"></div>
+              <div class="timeline-date" data-i18n="education.ustc.date">2026 — Present</div>
+              <div class="timeline-content">
+                <h3 data-i18n="education.ustc.degree">M.S. in Control Science and Engineering</h3>
+                <p class="institution" data-i18n="education.ustc.school">University of Science and Technology of China</p>
+                <p data-i18n-html="education.ustc.detail">Advisor: <a href="https://jiaweiliu92.github.io/" target="_blank" rel="noreferrer">Prof. Jiawei Liu</a></p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <div class="timeline-mark" aria-hidden="true"></div>
+              <div class="timeline-date">2022 — 2026</div>
+              <div class="timeline-content">
+                <h3 data-i18n="education.csu.degree">B.Eng. in Rail Transit Signal and Control</h3>
+                <p class="institution" data-i18n="education.csu.school">Central South University</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="experience" class="section">
+          <div class="section-heading">
+            <div>
+              <p class="section-label" data-i18n="experience.label">RESEARCH EXPERIENCE</p>
+              <h2 data-i18n="experience.heading">Selected experience</h2>
+            </div>
+            <span class="section-number">03</span>
+          </div>
+          <article class="experience-card">
+            <div class="experience-meta">
+              <span>2025 — 2026</span>
+              <span data-i18n="experience.group">ZL Research Group · CSU</span>
+            </div>
+            <h3 data-i18n="experience.title">Purely Data-Driven Traffic Vehicle Trajectory and Route Prediction System</h3>
+            <p data-i18n="experience.body">Research conducted at the School of Traffic and Transportation Engineering, Central South University, focusing on data-driven modeling for vehicle trajectory and route prediction.</p>
+          </article>
+        </section>
+
+        <section id="news" class="section compact-section">
+          <div class="section-heading">
+            <div>
+              <p class="section-label" data-i18n="news.label">NEWS</p>
+              <h2 data-i18n="news.heading">Latest updates</h2>
+            </div>
+            <span class="section-number">04</span>
+          </div>
+          <div class="empty-state">
+            <span class="empty-icon" aria-hidden="true">↗</span>
+            <div>
+              <h3 data-i18n="news.empty.title">The journey is just beginning.</h3>
+              <p data-i18n="news.empty.body">New milestones will be shared here. Stay tuned!</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="publications" class="section compact-section">
+          <div class="section-heading">
+            <div>
+              <p class="section-label" data-i18n="publications.label">PUBLICATIONS</p>
+              <h2 data-i18n="publications.heading">Research output</h2>
+            </div>
+            <span class="section-number">05</span>
+          </div>
+          <div class="empty-state">
+            <span class="empty-icon" aria-hidden="true">✦</span>
+            <div>
+              <h3 data-i18n="publications.empty.title">Work in progress.</h3>
+              <p data-i18n="publications.empty.body">Research takes time. Publications will appear here as the work develops.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="awards" class="section">
+          <div class="section-heading">
+            <div>
+              <p class="section-label" data-i18n="awards.label">HONORS & AWARDS</p>
+              <h2 data-i18n="awards.heading">Recognition</h2>
+            </div>
+            <span class="section-number">06</span>
+          </div>
+          <div class="award-list">
+            <article class="award-item">
+              <span class="award-year">2026</span>
+              <div>
+                <h3 data-i18n="awards.ustc.title">Second-Class Scholarship</h3>
+                <p data-i18n="awards.ustc.school">University of Science and Technology of China</p>
+              </div>
+            </article>
+            <article class="award-item">
+              <span class="award-year">2023</span>
+              <div>
+                <h3 data-i18n="awards.csu.title">Second-Class Scholarship</h3>
+                <p data-i18n="awards.csu.school">Central South University</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <footer>
+          <p>© <span id="current-year"></span> Gan Yucheng.</p>
+          <p data-i18n="footer.note">Designed with curiosity, built for the journey ahead.</p>
+          <a href="#about" aria-label="Back to top">↑</a>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
